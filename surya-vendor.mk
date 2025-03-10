@@ -10,19 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/xiaomi/surya/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOpenCL.so \
     vendor/xiaomi/surya/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
-    vendor/xiaomi/surya/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
-    vendor/xiaomi/surya/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
-    vendor/xiaomi/surya/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
-    vendor/xiaomi/surya/proprietary/system/lib/libmisys_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmisys_jni.so \
-    vendor/xiaomi/surya/proprietary/system/lib/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/surya/proprietary/system/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/surya/proprietary/system/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/surya/proprietary/system/lib/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@4.0.so \
-    vendor/xiaomi/surya/proprietary/system/lib64/libmisys_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmisys_jni.so \
-    vendor/xiaomi/surya/proprietary/system/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/surya/proprietary/system/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/surya/proprietary/system/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/surya/proprietary/system/lib64/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@4.0.so \
     vendor/xiaomi/surya/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/surya/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/surya/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
@@ -35,10 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/surya/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/xiaomi/surya/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
-    vendor/xiaomi/surya/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@1.0-service \
-    vendor/xiaomi/surya/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
-    vendor/xiaomi/surya/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@3.0-service \
-    vendor/xiaomi/surya/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@4.0-service \
     vendor/xiaomi/surya/proprietary/vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb \
     vendor/xiaomi/surya/proprietary/vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP/IDP_Codec_cal.acdb \
     vendor/xiaomi/surya/proprietary/vendor/etc/acdbdata/IDP/IDP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP/IDP_General_cal.acdb \
@@ -159,10 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
-    vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
-    vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
-    vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
-    vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
     vendor/xiaomi/surya/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/surya/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/surya/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
@@ -255,10 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_mp.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/tas256x_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas256x_reg.bin \
-    vendor/xiaomi/surya/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_aac_gc02m1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_aac_gc02m1b_depth.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_aac_hi1337_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_aac_hi1337_ultra.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_aac_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_aac_hi259_macro.bin \
@@ -271,14 +246,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_sunny_imx682_ver2_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_sunny_imx682_ver2_wide.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_sunny_imx682_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_sunny_imx682_wide.bin \
 	vendor/xiaomi/surya/proprietary/vendor/lib/soundfx/libmisoundfx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmisoundfx.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@4.0.so \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_sunny_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_sunny_s5k3t2_front.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.tuned.j20c_aac_gc02m1b_depth_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.j20c_aac_gc02m1b_depth_global.bin \
@@ -320,11 +287,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
-    vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/surya/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@4.0.so
+    vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql
 
 PRODUCT_PACKAGES += \
     eglSubDriverAndroid \
@@ -909,13 +872,6 @@ PRODUCT_PACKAGES += \
     slim_daemon \
     tftp_server \
     time_daemon \
-    vendor.xiaomi.hardware.misys-V1.0-java \
-    vendor.xiaomi.hardware.misys-V2.0-java \
-    vendor.xiaomi.hardware.misys.V3_0 \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
     vppservice \
     wfdvndservice \
     wifidisplayhalservice \
